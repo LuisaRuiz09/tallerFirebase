@@ -8,7 +8,7 @@ import withReactContent from 'sweetalert2-react-content'
 //Sweet alert2
 const MySwal = withReactContent(Swal)
 
-//datos de la base de datos
+//datos de la base de datos en firebase
 const Create = () => {
     const [ nombre, setNombre ] = useState('')
     const [ apellido, setApellido ] = useState('')
