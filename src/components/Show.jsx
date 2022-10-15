@@ -33,9 +33,6 @@ const Show = () => {
     getListas()
    }
 
-  
-
-
     //5 - Funcion de confirmacion para Sweet Alert 2
   const confirmDelete = (id) => {
     MySwal.fire({
