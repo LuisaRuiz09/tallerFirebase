@@ -22,7 +22,8 @@ const Edit = () => {
 
     const update = async (e) => {
         e.preventDefault()
-         //Validando inputs vacios 
+    
+     //Validando inputs vacios 
     if (!nombre.trim()) {
         MySwal.fire({
             icon: 'warning',
