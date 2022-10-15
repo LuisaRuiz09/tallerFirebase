@@ -62,6 +62,7 @@ const Show = () => {
     // eslint-disable-next-line
   }, [] )
   //7 - devolver vista de nuestro componente
+  
   //campos de la base de datos
   return (
     <>
