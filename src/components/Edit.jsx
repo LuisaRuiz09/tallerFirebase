@@ -8,6 +8,7 @@ import withReactContent from 'sweetalert2-react-content'
 //Sweet alert2
 const MySwal = withReactContent(Swal)
 
+//Editar valores
 const Edit = () => {
     const [ nombre, setNombre ] = useState('')
     const [ apellido, setApellido ] = useState('')
